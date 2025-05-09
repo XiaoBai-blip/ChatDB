@@ -60,23 +60,42 @@ npm install
 ng serve
 ```
 
-5. Open the web link and start ask questions! 
-Example questions: 
-- What are all the tables in the postgres database?
-What columns does the rental table have?
-Show 5 sample records from the customer table.
-Show the first and last names of customers who are currently active.
-List the top 5 customers who paid the most money.
-What’s the total payment amount received in February 2022?
-For each customer, how many rentals have they made?
-Show customers who have rented more than 20 times.
-Update customer 2's email to 'PATRICIA.JOHNSON1@sakilacustomer.org'.
-[following question] Show me the customer information with customer id ‘2’.
-Find the rental and payment details (amount, date) for customer 269.
+5. Open the web link and start asking questions! 
 
-Add a new rental with inventory_id 8888, customer_id 123, rental_date on April 23, 2025 at noon, return_date two days later, handled by staff 1.
-[following question] show me the rental with inventory_id 8888
-Delete the rental made by customer 123 with inventory 8888 on April 23, 2025.
+
+## Example questions: 
+
+### For SQL:
+- What are all the tables in the postgres database?
+- What columns does the rental table have?
+- Show 5 sample records from the customer table.
+- Show the first and last names of customers who are currently active.
+- List the top 5 customers who paid the most money.
+- What’s the total payment amount received in February 2022?
+- For each customer, how many rentals have they made?
+- Show customers who have rented more than 20 times.
+- Update customer 2's email to 'PATRICIA.JOHNSON1@sakilacustomer.org'.
+- [following question] Show me the customer information with customer id ‘2’.
+- Find the rental and payment details (amount, date) for customer 269.
+- Add a new rental with inventory_id 8888, customer_id 123, rental_date on April 23, 2025 at noon, return_date two days later, handled by staff 1.
+- [following question] show me the rental with inventory_id 8888
+- Delete the rental made by customer 123 with inventory 8888 on April 23, 2025.
+
+### For Mongodb:
+
+- What collections are currently available in the MongoDB database?
+- Show me 3 sample documents from the customers collection.
+- List all customers' names and emails.
+- Show all orders with a total amount greater than $50.
+- Show the top 5 customers who spent the most, with their names.
+- Show all orders along with their item details.
+- For each customer, show how many orders they have made.
+- Find the top 5 customers who have spent the most in total across all their orders, and show their name, email, and total amount spent.
+- Add a new customer named 'rachel' with email 'rachel@example.com'.
+- Add two new customers to mongodb database. The first customer’s name is 'ddd' with email 'ddd@example.com', and the second customer’s name is ‘ffff’ with email ‘fff@example.com.’
+- Update customer rachel’s email to 'tom.hardy2025@example.com'.
+- Delete the customer with name rachel
+
 
 
 
