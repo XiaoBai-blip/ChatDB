@@ -1,1 +1,4 @@
-# ChatDB
+# Steps to implement ChatDB
+
+1.
+
