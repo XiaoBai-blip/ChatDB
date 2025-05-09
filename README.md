@@ -1,4 +1,4 @@
-# Steps to implement ChatDB
+# ChatDB Setup
 
 1.
 
