@@ -25,7 +25,7 @@ jupyter notebook
 http://localhost:8888/tree?token=1634398389932c4e2447f49ac5c9218005bdca99bd963494 
 ```
 
-## Command line for open and testing the django server (leave the jupyter notebook window open)
+## Run and test the django server (leave the jupyter notebook window open)
 
 1. Connect to your instance in a new terminal: 
 ```
@@ -62,7 +62,7 @@ ng serve
 
 5. Open the web link and start ask questions! 
 Example questions: 
-What are all the tables in the postgres database?
+- What are all the tables in the postgres database?
 What columns does the rental table have?
 Show 5 sample records from the customer table.
 Show the first and last names of customers who are currently active.
