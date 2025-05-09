@@ -63,7 +63,7 @@ ng serve
 5. Open the web link and start asking questions! 
 
 
-## Example questions: 
+## Example prompts: 
 
 ### For SQL:
 - What are all the tables in the postgres database?
