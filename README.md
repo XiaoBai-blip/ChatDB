@@ -38,6 +38,27 @@ ssh -i "chatdb.pem" -L 8000:localhost:8000 ubuntu@ec2-18-191-236-139.us-east-2.c
 python manage.py runserver 0.0.0.0:8000
 ```
 
+## Run Angular frontend locally
+
+1. Install Node.js
+
+2. Install Angular CLI:
+
+```
+npm install -g @angular/cli
+```
+
+3. Clone repo and install project’s dependencies:
+
+```
+npm install
+```
+
+4. Run locally:
+
+```
+ng serve
+```
 
 
 
