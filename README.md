@@ -41,7 +41,8 @@ python manage.py runserver 0.0.0.0:8000
 4. Open a new browser and go to the page: http://localhost:8000/  
 You will see "Welcome to the Home Page!✌️" if successfully start the server
 
-
+### Note:
+Running requirements.txt is not necessary when accessing the shared EC2 instance, as the backend environment is already configured. For ease of use, accessing the application through the EC2-hosted backend is recommended. Otherwise, if running the backend locally, the API URL in the Angular frontend must be updated accordingly.
 
 ## Run Angular frontend locally
 
