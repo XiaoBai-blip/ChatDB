@@ -69,7 +69,7 @@ ng serve
 
 
 ### Warning:
-The backend project directories are hosted in a virtual Jupyter Notebook environment on the EC2 instance, so as long as the instance remains running, there's no need to download the files locally.
+The backend project directories are hosted in a virtual Jupyter Notebook environment on the EC2 instance, so as long as the instance remains running, there's no need to download the files locally. API keys are hardcoded inside the file, feelfree to replace with your own key
 
 ## Example questions: 
 
