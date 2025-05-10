@@ -2,7 +2,7 @@
 
 ## Connect to the shared EC2
 
-1. Download the pem key and run this command:
+1. Download the pem key and run the command:
 ```
 chmod 400 "chatdb.pem"
 ```
@@ -27,7 +27,7 @@ http://localhost:8888/tree?token=1634398389932c4e2447f49ac5c9218005bdca99bd96349
 
 ## Run and test the django server (leave the jupyter notebook window open)
 
-1. Connect to your instance in a new terminal: 
+1. Connect to your instance on a new terminal window: 
 ```
 ssh -i "chatdb.pem" -L 8000:localhost:8000 ubuntu@ec2-18-191-236-139.us-east-2.compute.amazonaws.com
 ```
@@ -37,6 +37,11 @@ ssh -i "chatdb.pem" -L 8000:localhost:8000 ubuntu@ec2-18-191-236-139.us-east-2.c
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
+
+4. Open a new browser and access: http://localhost:8000/  
+You will see "Welcome to the Home Page!✌️" if successfully start the server
+
+
 
 ## Run Angular frontend locally
 
