@@ -68,6 +68,8 @@ ng serve
 
 5. Open the web link and start asking questions! 
 
+### Note:
+The API key used to connect with the shared EC2 backend is currently stored in api.service.ts. It is not recommended to replace or modify this key, as it is configured specifically for remote access to the deployed server.
 
 ### Warning:
 The backend project directories are hosted in a virtual Jupyter Notebook environment on the EC2 instance, so as long as the instance remains running, there's no need to download the files locally. API keys are hardcoded inside the file, feelfree to replace with your own key
