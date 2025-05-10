@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class ApiService {
 
   // Define the URL to your Django backend API
-  private apiUrl = 'http://18.188.170.181:8000/api/nl_query/'; // Adjust the URL as needed
+  private apiUrl = 'http://18.191.236.139:8000/api/nl_query/'; // Adjust the URL as needed
 
   constructor(private http: HttpClient) {}
 

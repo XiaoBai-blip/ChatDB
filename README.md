@@ -38,7 +38,7 @@ ssh -i "chatdb.pem" -L 8000:localhost:8000 ubuntu@ec2-18-191-236-139.us-east-2.c
 python manage.py runserver 0.0.0.0:8000
 ```
 
-4. Open a new browser and access: http://localhost:8000/  
+4. Open a new browser and go to the page: http://localhost:8000/  
 You will see "Welcome to the Home Page!✌️" if successfully start the server
 
 
@@ -68,7 +68,10 @@ ng serve
 5. Open the web link and start asking questions! 
 
 
-## Example prompts: 
+### Warning:
+The backend project directories are hosted in a virtual Jupyter Notebook environment on the EC2 instance, so as long as the instance remains running, there's no need to download the files locally.
+
+## Example questions: 
 
 ### For SQL:
 - What are all the tables in the postgres database?
